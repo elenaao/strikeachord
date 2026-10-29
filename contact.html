@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-        <head> <h1>🎵 Strike a Chord 🎵</h1></head> 
+        <header> <h1>🎵 Strike a Chord 🎵</h1></header> 
        <nav> <ul>
         <li><a href="index.html"> Home </a></li>
          <li><a href="lessons.html"> Lessons</a> </li>
@@ -31,5 +31,56 @@
     <img src="map.jpg" alt=" map of Chicago,IL">
 
 </div>
+
+<div id="contact">
+  </div>
+<div id="form">
+    <h2> Complete the form below and one of our staff memebers will contanct you.</h2>
+ <form class="form-grid">
+    <fieldset>
+        <legend>Customer Information</legend>
+        <label for="fName">First Name:</label> 
+        <input type="text" name="fName" id="fName">
+        
+        <label for="lName">Last Name:</label> 
+        <input type="text" name="lName" id="lName"> 
+
+        <label for="email">Email:</label> 
+        <input type="email" name="email" id="email"> 
+        
+        <label for="phone">Phone:</label> 
+        <input type="tel" name="phone" id="phone">
+    </fieldset>
+     
+<fieldset>
+    <legend>Musical Interest</legend>
+    <p>I am interested in:</p>
+
+    <label for="guitarles">
+    <input type="checkbox" name="interest" id="guitarles" value="Guitar Lessons">
+    Guitar Lessons
+    </label>
+
+    <label for="pianoles">
+    <input type="checkbox" name="interest" id="pianoles" value="Piano Lessons">
+     Piano Lessons
+    </label>
+
+    <label for="violinles">
+    <input type="checkbox" name="interest" id="violinles" value="Violin Lessons">
+    Violin Lessons
+    </label>
+
+ 
+
+    <label for="rent">
+    <input type="checkbox" name="interest" id="rent" value="Rental Equipment">
+    Rental Equipment
+    </label>
+    </fieldset>
+    <input type="submit" class="btn" id="sumbit" value="Sumbit">
+ </form>
+</div>
+
 </body>
 </html>
